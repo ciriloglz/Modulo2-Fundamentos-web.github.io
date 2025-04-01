@@ -20,6 +20,28 @@ header{
 header h1{text-align: center;
 
 }
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+margin: 0 15px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    fon
+}
+nav ul li a :hover{
+    text-decoration: underline;
+}
 .estilo{
     background-color: aliceblue;
+    padding: 20px;
+    margin: 20px 0;
+    transition: brackground-color 0.3s ease;
+}
+.estilo:hover{
+    background-color: rgb(181, 221, 255);
 }
