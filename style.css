@@ -17,7 +17,9 @@ header{
     color: rgb(240, 156, 1);
     padding: 10px 0;
 }
-header h1{text-align: center;
+header h1{
+    text-align: center;
+    justify-content: center;
 
 }
 nav ul{
@@ -31,9 +33,9 @@ margin: 0 15px;
 nav ul li a{
     color: black;
     text-decoration: none;
-    fon
+    font-weight: bold;
 }
-nav ul li a :hover{
+nav ul li a:hover{
     text-decoration: underline;
 }
 .estilo{
@@ -44,4 +46,48 @@ nav ul li a :hover{
 }
 .estilo:hover{
     background-color: rgb(181, 221, 255);
+}
+.cta-button{
+    background-color: rgb(255, 104, 49);
+    color: white;
+    padding: 10px 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 23px;
+}
+.cta-button:hover{
+    background-color: orangered;
+}
+.menu-contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3 ease;
+}
+.card:hover{
+    transform: translate(-8px);
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer{
+    background-color: rgb(249, 202, 115);
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
